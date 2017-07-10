@@ -91,10 +91,12 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 MONGO_URI = 'localhost'
-MONGO_DATABASE = 'zhihu'
+MONGO_DATABASE = 'zhihu_answer'
 
 SCHEDULER = "scrapy_redis.scheduler.Scheduler"
 
 DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 
 REDIS_URL = 'redis://root:redistest@115.159.55.58:6379'
+
+# LOG_LEVEL = 'ERROR'
