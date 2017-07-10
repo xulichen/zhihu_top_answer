@@ -15,3 +15,5 @@ Redis == 3.2.9
 
 在子话题的精华 -- top_answer -- 下对各个回答进行筛选，抓取点赞数高于10k的回答
 提取包括：title -- content  --  author  --  edit_time  等信息
+
+## 增加了scrapy_redis分布式爬虫分支
