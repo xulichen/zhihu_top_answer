@@ -29,5 +29,5 @@ class MongoPipeline(object):
         self.client.close()
 
     def process_item(self, item, spider):
-        self.db[self.collection_name].update({'title':item['title']}, {'$set':dict(item)}, True)
+        self.db[self.collection_name].update({'title':item['title'], 'author':item['author']}, {'$set':dict(item)}, True)
         return item
