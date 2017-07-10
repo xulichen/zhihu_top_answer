@@ -74,6 +74,3 @@ class ZhihuTopAnswerSpider(scrapy.Spider):
             main_url, url_page = whole_url[0], whole_url[1]
             yield Request(url=main_url + '=' + str(int(url_page)+1), callback=self.parse_answer)
 
-
-
-
