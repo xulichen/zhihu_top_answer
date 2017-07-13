@@ -17,3 +17,4 @@ Redis == 3.2.9
 提取包括：title -- content  --  author  --  edit_time  等信息
 
 ## 增加了scrapy_redis分布式爬虫分支
+-- branch distributed
